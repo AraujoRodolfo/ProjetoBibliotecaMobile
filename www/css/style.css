@@ -1,0 +1,126 @@
+*{
+    font-family: cursive;
+}
+body{
+background-color: beige;
+}
+.titulo, .titulo-home{
+    background-color: moccasin;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom:5px solid saddlebrown;    
+    text-align: left;
+}
+.titulo img{
+    height: 20vw;
+}
+.titulo-home img{
+    height: 10vw;
+}
+.titulo-home #perfil{
+    float:right;
+    margin-left:8px;
+    font-size: 3.5vw;
+}
+.sis{
+    color: black;
+    font-size: 12vw;
+    text-shadow: 2px 2px saddlebrown;
+}
+.footer{
+    width: 100vw;
+    padding:5px;
+    background-color: saddlebrown;
+    bottom: 0;
+    color: white;
+    text-align: center;
+    border-top: 5px solid moccasin;
+    font-size: 5vw;
+}
+#msg{
+    display: none;
+}
+#sair{
+    float:right;
+    font-size: 3.5vw;
+}
+input, select, option{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#user{
+    text-align: right;
+    color:saddlebrown;
+    float: right;
+    line-height: 1;
+    width: 60vw;;
+}
+.acervo{text-align: center;}
+
+.fonte2{
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.acervo b{
+    font-size: 6vw;   
+    color:saddlebrown;
+}
+
+.acervo hr{
+	width: 12vw;	
+    margin-left: 44vw;
+    border-bottom: 5px solid saddlebrown;
+}
+.livro{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3vw;
+    text-align: center;
+}
+.ver{float:right;}
+
+.bg-2{
+    background-color: saddlebrown;
+    color: white;
+}
+
+.card-body{min-height: 8vh;}
+
+.topo{
+    top: 0;
+    position: fixed;
+    z-index: 9999;
+}
+#filtros{
+    margin-top: -7vh;
+    transition: 1s linear;
+}
+
+.filtrar{
+    width: 25vw;
+    height: 7vw;
+    text-align: center;
+    margin-left: 37vw;
+    background-color: saddlebrown;
+    border-radius: 0 0 15vw 15vw;
+    color:white;
+}
+.animated {
+  animation-duration: 3s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+  0% {transform: scale(1);}
+  50% {transform: scale(1.1);}
+  100% {transform: scale(1);}
+}
+.pulse {
+  animation-name: pulse;
+  animation-duration: 1s;
+}
+
+
+
+
+
+

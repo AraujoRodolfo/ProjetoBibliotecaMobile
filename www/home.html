@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="Content-Security-Policy" content="default-src * data: gap: content: https://ssl.gstatic.com; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+    <script src="components/loader.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="components/loader.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="container-fluid">
+        <div class="row topo">
+            <div class="col-12 titulo-home">
+                <img src="img/logo3.png">
+                <div id="user">
+                     <span class="btn btn-dark fonte2" id="perfil">Perfil</span>
+                     Olá,<br>                                       
+                </div>
+            </div>
+        </div>
+        <div class="row pt-2 bg-2 fonte2" id="filtros">
+            <div class="col-10">
+                <div class="mb-3">
+                    <input type="text" class="form-control" id="texto" placeholder="Buscar por titulo, sinopse..">
+                </div>
+            </div>
+            <div class="col-1">
+                <div class="mb-3">
+                    <button class="btn btn-dark" id="buscar">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                        </svg>
+                    </button>
+                </div>
+             </div>
+             <div class="col-6">
+                <div class="mb-3">
+                    <select class="form-control" id="categoria">
+                        <option>Categoria..</option>
+                        <option>AAA</option>
+                        <option>AAA</option>                        
+                    </select>
+                </div>
+             </div>
+             <div class="col-6">
+                <div class="mb-3">
+                    <select class="form-control" id="autor">
+                        <option>Autor..</option>
+                        <option>AAA</option>
+                        <option>AAA</option>                        
+                    </select>
+                </div>
+             </div>               
+        </div>
+        <div class="row">
+                 <span class="fonte2 text-center filtrar">Filtrar</span>
+        </div>
+        
+         <div class="row mt-3 acervo">
+			<b class="fonte2">Últimos Adicionados</b>   
+            <hr class="animated pulse">
+            <!-- livros aqui -->
+		</div>
+         <div class="row footer mt-3">
+             <div class="col-12">
+                Prof. Rodolfo &copy 2022
+                <b class="btn btn-dark fonte2" id="sair">Sair</b>
+             </div>
+         </div>
+    </div>
+    <script src="js/acao.js"></script>
+    <script src="js/home.js"></script>
+
+</body>
+</html>
